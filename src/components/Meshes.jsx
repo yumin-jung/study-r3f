@@ -1,4 +1,4 @@
-import { Box, Circle, Cone, Plane, Sphere, Cylinder, Torus, TorusKnot } from "@react-three/drei"
+import { Plane, TorusKnot } from "@react-three/drei"
 import * as  THREE from "three"
 
 export const Meshes = () => {
@@ -57,13 +57,13 @@ export const Meshes = () => {
                 receiveShadow
             >
                 <meshStandardMaterial
-                    color={0xff0000}
+                    color={0xffffff}
                     roughness={0.5}
                     metalness={1}
                 />
             </TorusKnot>
 
-            <TorusKnot
+            {/* <TorusKnot
                 args={[1, 0.2, 128, 128, 2, 3]}
                 position={[-7, 1.6, 0]}
                 material-color={"teal"}
@@ -103,7 +103,7 @@ export const Meshes = () => {
                 <meshDepthMaterial
                     opacity={0.5}
                 />
-            </TorusKnot>
+            </TorusKnot> */}
         </>
     )
 }
