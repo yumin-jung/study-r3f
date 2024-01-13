@@ -51,15 +51,12 @@ export const Meshes = () => {
 
             <TorusKnot
                 args={[1, 0.2, 128, 128, 2, 3]}
-                position={[-3, 1.6, 0]}
-                material-color={"teal"}
+                position={[0, 1.6, 0]}
                 castShadow
                 receiveShadow
             >
                 <meshStandardMaterial
-                    color={0xffffff}
-                    roughness={0.5}
-                    metalness={1}
+                    color={0xff0000}
                 />
             </TorusKnot>
 
