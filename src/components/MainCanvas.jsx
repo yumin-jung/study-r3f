@@ -6,6 +6,7 @@ import * as THREE from "three";
 import { Controls } from "./Controls";
 import { GLBModel } from "./GLBModel";
 import { Dancer } from "./Dancer";
+import { PostProcessor } from "./PostProcessor";
 
 export const MainCanvas = () => {
     return (
@@ -26,6 +27,7 @@ export const MainCanvas = () => {
             <Meshes />
             <GLBModel />
             <Dancer />
+            <PostProcessor />
         </Canvas >
     );
 }
